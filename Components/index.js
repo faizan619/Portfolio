@@ -39,6 +39,7 @@ gsap.to(".HeaderSection",{
     time.from(".userPhoto",{
         scale:2,
         y:-50,
+        duration:2,
     })
     .to(".userPhoto",{
         scale:1.5,

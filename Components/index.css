@@ -124,6 +124,7 @@ a{
 .sharingLink{
     background-color: gray;
     color: white;
+    text-align: center;
 }
 
 /*============================================================
@@ -139,4 +140,41 @@ Footer Part Styling...
 }
 .link1:hover{
     scale: 1.2;
+}
+
+
+/*============================================================
+
+Media Query Part Styling...
+
+==============================================================*/
+
+@media (max-width:500px) {
+    .FooterSection a{
+        margin: 0 .3rem;
+    }
+}
+
+@media (max-width:300px) {
+    .FooterSection a{
+        flex: 1;
+    }
+    .FooterSection{
+        display: flex;
+    }
+}
+@media (max-width:250px){
+    html{
+        background-color: #4b5a6c;
+    }
+    .container{
+        font-size: 1rem;
+        width: 100vw;
+    }
+    .link{
+        font-size: 1rem;
+    }
+    .sharingLink span img{
+        height: 1.3rem;
+    }
 }
