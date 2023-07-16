@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid red; */
+    height: 100%;
+    /* background-color: rgba(255, 166, 0, 0.9); */
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.portfolioBox{
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-flow: column;
+}
+.TopSection{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 90%;
+}
+.userPhoto{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.UserName{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    /* word-spacing: 5cm; */
+}
+.UserInfo{
+    color: rgb(82, 78, 78);
+}
+.LinkSection{
+    /* border: 1px solid green; */
+    width: 100%;
+    padding: 0 .3rem;
+}
+.link:hover{
+    scale: 1.05;
+}
+.link{
+    height: 3rem;
+    transition: all ease .3s;
+    border: 1px solid white;
+    margin: 2rem 0;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.FooterSection a{
+    margin: 0 1rem;
+}
+.FooterSection{
+    padding: 2rem 0;
+}
+.link1:hover{
+    scale: 1.05;
+}
