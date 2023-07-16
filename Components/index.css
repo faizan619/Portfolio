@@ -7,7 +7,8 @@
     /* border: 1px solid red; */
     height: 100%;
     /* background-color: rgba(255, 166, 0, 0.9); */
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: #4b5a6c;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -45,7 +46,7 @@
     /* word-spacing: 5cm; */
 }
 .UserInfo{
-    color: rgb(82, 78, 78);
+    color: lightgray;
 }
 .LinkSection{
     /* border: 1px solid green; */
@@ -64,7 +65,7 @@
     place-items: center;
     background-color: white;
     border-radius: .5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .FooterSection a{
@@ -75,4 +76,8 @@
 }
 .link1:hover{
     scale: 1.05;
+}
+a{
+    text-decoration: none!important ;
+    color: black;
 }
