@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*============================================================
+
+Page Structure Styling...
+
+==============================================================*/
 .container{
     /* border: 1px solid red; */
     height: 100%;
@@ -11,6 +16,7 @@
     background-color: #4b5a6c;
     display: flex;
     justify-content: center;
+    /* flex-direction: column; */
     /* align-items: center; */
 }
 .portfolioBox{
@@ -18,8 +24,45 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    padding: 1.5rem;
     flex-flow: column;
 }
+/*============================================================
+
+Header Page Styling...
+
+==============================================================*/
+
+.HeaderSection{
+    position: sticky;
+    top: 5%;
+    width: 100%;
+    border-radius: 10rem;
+    height: 5rem;
+    z-index: 5;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.HeaderSection img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.HeaderSection h1{
+    font-size: 1.3rem;
+    text-transform: lowercase;
+}
+
+
+/*============================================================
+
+User Detail Part Styling...
+
+==============================================================*/
 .TopSection{
     /* border: 1px solid green; */
     display: flex;
@@ -48,13 +91,23 @@
 .UserInfo{
     color: lightgray;
 }
+
+/*============================================================
+
+User Social Media link Styling...
+
+==============================================================*/
 .LinkSection{
     /* border: 1px solid green; */
     width: 100%;
-    padding: 0 .3rem;
+    padding: 0 .5rem;
 }
 .link:hover{
     scale: 1.05;
+}
+a{
+    text-decoration: none!important ;
+    color: black;
 }
 .link{
     height: 3rem;
@@ -65,9 +118,15 @@
     place-items: center;
     background-color: white;
     border-radius: .5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*============================================================
+
+Footer Part Styling...
+
+==============================================================*/
 .FooterSection a{
     margin: 0 1rem;
 }
@@ -75,9 +134,5 @@
     padding: 2rem 0;
 }
 .link1:hover{
-    scale: 1.05;
-}
-a{
-    text-decoration: none!important ;
-    color: black;
+    scale: 1.2;
 }
