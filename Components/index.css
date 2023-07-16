@@ -9,20 +9,13 @@ Page Structure Styling...
 
 ==============================================================*/
 .container{
-    /* border: 1px solid red; */
     height: 100%;
-    /* background-color: rgba(255, 166, 0, 0.9); */
-    /* background-color: pink; */
     background-color: #4b5a6c;
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 .portfolioBox{
-    /* border: 1px solid red; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 1.5rem;
     flex-flow: column;
@@ -64,7 +57,6 @@ User Detail Part Styling...
 
 ==============================================================*/
 .TopSection{
-    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +90,6 @@ User Social Media link Styling...
 
 ==============================================================*/
 .LinkSection{
-    /* border: 1px solid green; */
     width: 100%;
     padding: 0 .5rem;
 }
