@@ -18,6 +18,13 @@ const urlCopy = ()=>{
 
 const time = gsap.timeline();
 
+gsap.from(".HeaderSection",{
+    opacity:0,
+})
+gsap.to(".HeaderSection",{
+    opacity:0,
+})
+
 gsap.to(".HeaderSection",{
     opacity:1,
     scrollTrigger:{
@@ -27,19 +34,19 @@ gsap.to(".HeaderSection",{
         end:'bottom 2%',
     }
 })
-    time.to(".HeaderSection",{
-        opacity:0,
-    })
-    .from(".userPhoto",{
+
+
+    time.from(".userPhoto",{
         scale:2,
         y:-50,
     })
     .to(".userPhoto",{
-        scale:1.2,
-        y:-10,
+        scale:1.5,
+        y:-25,
     })
     .from(".UserName",{
         opacity:0,
+        scale:.5,
     })
     .from(".UserInfo",{
         y:10,
