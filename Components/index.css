@@ -67,6 +67,7 @@ User Detail Part Styling...
 }
 .userPhoto{
     height: 7rem;
+    scale: 1.5;
     width: 7rem;
     border-radius: 100%;
     object-fit: cover;

@@ -36,21 +36,16 @@ gsap.to(".HeaderSection",{
 })
 
 
-    time.from(".userPhoto",{
-        scale:2,
-        y:-50,
-        duration:2,
-    })
-    .to(".userPhoto",{
-        scale:1.5,
+    time.to(".userPhoto",{
         y:-25,
     })
     .from(".UserName",{
         opacity:0,
         scale:.5,
+        duration:2,
     })
     .from(".UserInfo",{
-        y:10,
+        y:20,
         repeat:-1,
         yoyo:true,
     })
